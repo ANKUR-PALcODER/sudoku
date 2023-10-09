@@ -116,7 +116,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180924087-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() {dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-180924087-1');
     </script>
@@ -124,7 +124,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2WQYM10ZE7"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-2WQYM10ZE7');
     </script>
@@ -133,7 +133,8 @@
 <body>
     <header id="header">
         <span id="title">Setter Mode</span>
-        <span id="version-info">Penpa+ v<span id="version-number"></span> &copy; 2020-2023 <button id="page_help">Help</button></span>
+        <span id="version-info">Penpa+ v<span id="version-number"></span> &copy; 2020-2023 <button
+                id="page_help">Help</button></span>
     </header>
     <div id="app-container">
         <div id="tool-container">
@@ -184,7 +185,8 @@
                         <input type="radio" name="mode" id="mo_move" />
                         <label for="mo_move" class="label" id="mo_move_lb">Move</label>
                         <br id="mode_break">
-                        <label class="label_mode" id="mode_txt_space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <label class="label_mode"
+                            id="mode_txt_space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
                         <input type="radio" name="mode" id="mo_number" />
                         <label for="mo_number" class="label" id="mo_number_lb">Number</label>
                         <input type="radio" name="mode" id="mo_sudoku" />
@@ -203,7 +205,8 @@
                     <hr size="1" noshade>
                     <div id="submode_button">
                         <span id="div_sub">
-                            <label class="label_mode tooltip" id="sub_txt">Sub:&nbsp;&nbsp;<span id="sub_text" class="tooltiptext">Choose one sub-mode wherever applicable</span></label>
+                            <label class="label_mode tooltip" id="sub_txt">Sub:&nbsp;&nbsp;<span id="sub_text"
+                                    class="tooltiptext">Choose one sub-mode wherever applicable</span></label>
                         </span>
                         <span id="mode_line" style="display:none;">
                             <input type="radio" name="mode_line" value="1" id="sub_line1" checked="checked">
@@ -257,7 +260,8 @@
                             <ul class="nav">
                                 <li><span id="ms1" class="labelS">Shape</span>
                                     <ul id="mode_symbolul1">
-                                        <li id="li_circle"><span id="ms1_circle">&#x26AB; &#x26AA; &#x25CF; &#x25CB;</span>
+                                        <li id="li_circle"><span id="ms1_circle">&#x26AB; &#x26AA; &#x25CF;
+                                                &#x25CB;</span>
                                             <ul>
                                                 <li id="li_circle_L"><span id="ms_circle_L">L</span></li>
                                                 <li id="li_circle_M"><span id="ms_circle_M">M</span></li>
@@ -265,7 +269,8 @@
                                                 <li id="li_circle_SS"><span id="ms_circle_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_square"><span id="ms1_square">&#x2B1B; &#x2B1C; &#x25FC; &#x25FB;</span>
+                                        <li id="li_square"><span id="ms1_square">&#x2B1B; &#x2B1C; &#x25FC;
+                                                &#x25FB;</span>
                                             <ul>
                                                 <li id="li_square_LL"><span id="ms_square_LL">XL</span></li>
                                                 <li id="li_square_L"><span id="ms_square_L">L</span></li>
@@ -274,7 +279,8 @@
                                                 <li id="li_square_SS"><span id="ms_square_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_triup"><span id="ms1_triup">&#x25B2; &#x25B3; &#x25B4; &#x25B5;</span>
+                                        <li id="li_triup"><span id="ms1_triup">&#x25B2; &#x25B3; &#x25B4;
+                                                &#x25B5;</span>
                                             <ul>
                                                 <li><span id="ms_triup_L">L</span></li>
                                                 <li><span id="ms_triup_M">M</span></li>
@@ -282,7 +288,8 @@
                                                 <li><span id="ms_triup_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_tridown"><span id="ms1_tridown">&#x25BC; &#x25BD; &#x25BE; &#x25BF;</span>
+                                        <li id="li_tridown"><span id="ms1_tridown">&#x25BC; &#x25BD; &#x25BE;
+                                                &#x25BF;</span>
                                             <ul>
                                                 <li><span id="ms_tridown_L">L</span></li>
                                                 <li><span id="ms_tridown_M">M</span></li>
@@ -290,7 +297,8 @@
                                                 <li><span id="ms_tridown_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_triright"><span id="ms1_triright">&#9655; &#11208; &#9657; &#9656;</span>
+                                        <li id="li_triright"><span id="ms1_triright">&#9655; &#11208; &#9657;
+                                                &#9656;</span>
                                             <ul>
                                                 <li><span id="ms_triright_L">L</span></li>
                                                 <li><span id="ms_triright_M">M</span></li>
@@ -298,7 +306,8 @@
                                                 <li><span id="ms_triright_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_trileft"><span id="ms1_trileft">&#9665; &#11207; &#9667; &#9666;</span>
+                                        <li id="li_trileft"><span id="ms1_trileft">&#9665; &#11207; &#9667;
+                                                &#9666;</span>
                                             <ul>
                                                 <li><span id="ms_trileft_L">L</span></li>
                                                 <li><span id="ms_trileft_M">M</span></li>
@@ -306,7 +315,8 @@
                                                 <li><span id="ms_trileft_SS">XS</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_diamond"><span id="ms1_diamond">&#x2B25; &#x2B26; &#x25C6; &#x25C7;</span>
+                                        <li id="li_diamond"><span id="ms1_diamond">&#x2B25; &#x2B26; &#x25C6;
+                                                &#x25C7;</span>
                                             <ul>
                                                 <li><span id="ms_diamond_L">L</span></li>
                                                 <li><span id="ms_diamond_M">M</span></li>
@@ -349,7 +359,8 @@
                                                 <li><span id="ms_bars_W">White</span></li>
                                             </ul>
                                         </li>
-                                        <li id="li_tri"><span id="ms_tri">&#x25E2; &#x25E3; &#x25E4; &#x25E5;</span></li>
+                                        <li id="li_tri"><span id="ms_tri">&#x25E2; &#x25E3; &#x25E4; &#x25E5;</span>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><span id="ms2" class="labelS">Number</span>
@@ -361,7 +372,8 @@
                                             </ul>
                                         </li>
                                         <li><span id="ms_inequality">&#xFF1C; &#xFF1E; ^ v </span></li>
-                                        <li id=msli_degital><span id="ms1_degital">&brvbar;-&brvbar; &brvbar; '-&brvbar;</span>
+                                        <li id=msli_degital><span id="ms1_degital">&brvbar;-&brvbar; &brvbar;
+                                                '-&brvbar;</span>
                                             <ul id="ul_degital">
                                                 <li><span id="ms_degital_B">Black</span></li>
                                                 <li><span id="ms_degital_E">Green</span></li>
@@ -429,7 +441,8 @@
                                             </ul>
                                         </li>
                                         <li id="li_kakuro"><span id="ms_kakuro">Kakuro</span></li>
-                                        <li id="li_tents"><span id="ms_tents">&#127794; &#9650; &#8779; &#128031;</span></li>
+                                        <li id="li_tents"><span id="ms_tents">&#127794; &#9650; &#8779; &#128031;</span>
+                                        </li>
                                         <li id="li_star"><span id="ms_star">&#10022; &#9734; &#9733;</span></li>
                                         <li id="li_compass"><span id="ms_compass">Compass</span></li>
                                         <li id="li_sudokuetc"><span id="ms_sudokuetc">Sudoku</span></li>
@@ -454,16 +467,19 @@
                             </ul>
                         </span>
                         <span id="mode_special" style="display:none;">
-                            <input type="radio" name="mode_special" value="thermo" id="sub_specialthermo" checked="checked">
+                            <input type="radio" name="mode_special" value="thermo" id="sub_specialthermo"
+                                checked="checked">
                             <label for="sub_specialthermo" class="labelL" id="sub_specialthermo_lb">Thermo</label>
                             <input type="radio" name="mode_special" value="nobulbthermo" id="sub_specialnobulbthermo">
-                            <label for="sub_specialnobulbthermo" class="labelL" id="sub_specialnobulbthermo_lb">No Bulb Thermo</label>
+                            <label for="sub_specialnobulbthermo" class="labelL" id="sub_specialnobulbthermo_lb">No Bulb
+                                Thermo</label>
                             <input type="radio" name="mode_special" value="arrows" id="sub_specialarrows">
                             <label for="sub_specialarrows" class="labelL" id="sub_specialarrows_lb">Sudoku Arrow</label>
                             <input type="radio" name="mode_special" value="direction" id="sub_specialdirection">
                             <label for="sub_specialdirection" class="labelL" id="sub_specialdirection_lb">Arrow</label>
                             <input type="radio" name="mode_special" value="squareframe" id="sub_specialsquareframe">
-                            <label for="sub_specialsquareframe" class="labelL" id="sub_specialsquareframe_lb">Rectangle frame</label>
+                            <label for="sub_specialsquareframe" class="labelL" id="sub_specialsquareframe_lb">Rectangle
+                                frame</label>
                             <input type="radio" name="mode_special" value="polygon" id="sub_specialpolygon">
                             <label for="sub_specialpolygon" class="labelL" id="sub_specialpolygon_lb">Polygon</label>
                         </span>
@@ -508,14 +524,16 @@
                                 </li>
                                 <li><span id="subc4" class="labelS">Object</span>
                                     <ul>
-                                        <li id="combili_battleship"><span id="combisub_battleship">Battleship</span></li>
+                                        <li id="combili_battleship"><span id="combisub_battleship">Battleship</span>
+                                        </li>
                                         <li id="combili_star"><span id="combisub_star">Star Battle</span></li>
                                         <li id="combili_tents"><span id="combisub_tents">Tent</span></li>
                                         <li id="combili_magnets"><span id="combisub_magnets">Magnets</span></li>
                                         <li id="combili_mines"><span id="combisub_mines">Minesweeper</span></li>
                                         <li id="combili_akari"><span id="combisub_akari">Akari</span></li>
                                         <li id="combili_arrowS"><span id="combisub_arrowS">Arrows</span></li>
-                                        <li id="combili_doublemines"><span id="combisub_doublemines">DoubleMines</span></li>
+                                        <li id="combili_doublemines"><span id="combisub_doublemines">DoubleMines</span>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><span id="subc5" class="labelS">Number logic</span>
@@ -537,34 +555,47 @@
                     </div>
                     <div id="stylemode_button">
                         <span>
-                            <label class="label_mode tooltip" id="style_txt">Style:<span id="style_text" class="tooltiptext">Choose one style</span></label>
+                            <label class="label_mode tooltip" id="style_txt">Style:<span id="style_text"
+                                    class="tooltiptext">Choose one style</span></label>
                         </span>
                         <span id="style_surface" style="display:'inline-block';">
                             <!-- Adding superscript was affecting the color selection as it did not had id, so defined new id and followed same structure as parent. Its important to have only two characters at the end after _ because of the way, window_click is setup in main.js for stylemode_check-->
                             <input type="radio" name="style_surface" value="1" id="st_surface1" checked="checked">
-                            <label for="st_surface1" class="labelL" id="st_surface1_lb">DG<sup id="st_surface1_sp">1</sup></label>
+                            <label for="st_surface1" class="labelL" id="st_surface1_lb">DG<sup
+                                    id="st_surface1_sp">1</sup></label>
                             <input type="radio" name="style_surface" value="8" id="st_surface8">
-                            <label for="st_surface8" class="labelL" id="st_surface8_lb">GR<sup id="st_surface8_sp">2</sup></label>
+                            <label for="st_surface8" class="labelL" id="st_surface8_lb">GR<sup
+                                    id="st_surface8_sp">2</sup></label>
                             <input type="radio" name="style_surface" value="3" id="st_surface3">
-                            <label for="st_surface3" class="labelL" id="st_surface3_lb">LG<sup id="st_surface3_sp">3</sup></label>
+                            <label for="st_surface3" class="labelL" id="st_surface3_lb">LG<sup
+                                    id="st_surface3_sp">3</sup></label>
                             <input type="radio" name="style_surface" value="4" id="st_surface4">
-                            <label for="st_surface4" class="labelL" id="st_surface4_lb">BK<sup id="st_surface4_sp">4</sup></label>
+                            <label for="st_surface4" class="labelL" id="st_surface4_lb">BK<sup
+                                    id="st_surface4_sp">4</sup></label>
                             <input type="radio" name="style_surface" value="2" id="st_surface2">
-                            <label for="st_surface2" class="labelL" id="st_surface2_lb">GN<sup id="st_surface2_sp">5</sup></label>
+                            <label for="st_surface2" class="labelL" id="st_surface2_lb">GN<sup
+                                    id="st_surface2_sp">5</sup></label>
                             <input type="radio" name="style_surface" value="5" id="st_surface5">
-                            <label for="st_surface5" class="labelL" id="st_surface5_lb">BL<sup id="st_surface5_sp">6</sup></label>
+                            <label for="st_surface5" class="labelL" id="st_surface5_lb">BL<sup
+                                    id="st_surface5_sp">6</sup></label>
                             <input type="radio" name="style_surface" value="6" id="st_surface6">
-                            <label for="st_surface6" class="labelL" id="st_surface6_lb">RE<sup id="st_surface6_sp">7</sup></label>
+                            <label for="st_surface6" class="labelL" id="st_surface6_lb">RE<sup
+                                    id="st_surface6_sp">7</sup></label>
                             <input type="radio" name="style_surface" value="7" id="st_surface7">
-                            <label for="st_surface7" class="labelL" id="st_surface7_lb">YE<sup id="st_surface7_sp">8</sup></label>
+                            <label for="st_surface7" class="labelL" id="st_surface7_lb">YE<sup
+                                    id="st_surface7_sp">8</sup></label>
                             <input type="radio" name="style_surface" value="9" id="st_surface9">
-                            <label for="st_surface9" class="labelL" id="st_surface9_lb">PI<sup id="st_surface9_sp">9</sup></label>
+                            <label for="st_surface9" class="labelL" id="st_surface9_lb">PI<sup
+                                    id="st_surface9_sp">9</sup></label>
                             <input type="radio" name="style_surface" value="10" id="st_surface10">
-                            <label for="st_surface10" class="labelL" id="st_surface10_lb">OR<sup id="st_surface10_sp">0</sup></label>
+                            <label for="st_surface10" class="labelL" id="st_surface10_lb">OR<sup
+                                    id="st_surface10_sp">0</sup></label>
                             <input type="radio" name="style_surface" value="11" id="st_surface11">
-                            <label for="st_surface11" class="labelL" id="st_surface11_lb">PU<sup id="st_surface11_sp">11</sup></label>
+                            <label for="st_surface11" class="labelL" id="st_surface11_lb">PU<sup
+                                    id="st_surface11_sp">11</sup></label>
                             <input type="radio" name="style_surface" value="12" id="st_surface12">
-                            <label for="st_surface12" class="labelL" id="st_surface12_lb">BR<sup id="st_surface12_sp">12</sup></label>
+                            <label for="st_surface12" class="labelL" id="st_surface12_lb">BR<sup
+                                    id="st_surface12_sp">12</sup></label>
                         </span>
                         <span id="style_line" style="display:none;">
                             <input type="radio" name="style_line" value="3" id="st_line3" checked="checked">
@@ -709,7 +740,8 @@
                 <label id="puzzletitle" class="info"></label>
                 <label id="puzzleauthor" class="info"></label>
                 <div><input type="button" id="puzzlerules" value="Show Rules" /></div>
-                <div><a id="puzzlesourcelink" href="" target="_blank"><label id="puzzlesource" class="info"></label></a></div>
+                <div><a id="puzzlesourcelink" href="" target="_blank"><label id="puzzlesource" class="info"></label></a>
+                </div>
                 <div><label id="solution_check" class="info" /></label></div>
             </div>
             <div id="dvique" class="dvique">
@@ -730,7 +762,8 @@
                 </span>
                 <span class="tooltip">
                     <button id="tb_reset" class="button">Erase selected mode</button>
-                    <span id="eraseselect_text" class="tooltiptext">Erase elements that belongs to the selected mode</span>
+                    <span id="eraseselect_text" class="tooltiptext">Erase elements that belongs to the selected
+                        mode</span>
                 </span>
                 <span class="tooltip">
                     <button id="tb_delete" class="button">Delete all</button>
@@ -783,7 +816,8 @@
                 <canvas id="float-canvas" class="float-canvas"></canvas>
             </div>
             <div id="float-key-text">
-                <textarea class="text_area" class="text_area" rows="1" cols="20" maxlength="100" id="inputtext"></textarea>
+                <textarea class="text_area" class="text_area" rows="1" cols="20" maxlength="100"
+                    id="inputtext"></textarea>
                 <input type="button" id="closeBtn_input1" value="Insert" />
                 <input type="button" id="closeBtn_input2" value="Clear" />
                 <input type="button" id="closeBtn_input3" value="Load" />
@@ -894,7 +928,8 @@
             <h3 class="modal-header" id="modal-newsize_lb">Resize</h3>
             <span id="modal-sizeA">
                 <span><label class="label_nb" id="modal-newsize_size_lb">Display size:</label></span>
-                <input type="number" pattern="\d*" name="nb_size3_r" id="nb_size3_r" value="38" min="12" max="90" step="2">
+                <input type="number" pattern="\d*" name="nb_size3_r" id="nb_size3_r" value="38" min="12" max="90"
+                    step="2">
             </span>
             <br>
             <div class="nb_button">
@@ -904,7 +939,8 @@
             <br>
             <div class="nb_button">
                 <h4><label id="rt4_lb_r">Add/Remove Rows/Columns:</label></h4>
-                <p><label id="rt5_lb_r">*Works only in Square Board Type, it also resets undo/redo. Answer checking if enabled, will only work with original grid size.</label></p>
+                <p><label id="rt5_lb_r">*Works only in Square Board Type, it also resets undo/redo. Answer checking if
+                        enabled, will only work with original grid size.</label></p>
                 <div class="resize-grid-buttons">
                     <div class="existing-grid">Existing Grid</div>
                     <button class="addtop" id="rt_addtop_r">+ &#9650;</button>
@@ -943,7 +979,8 @@
                 <input type="radio" name="nb_type" value="3" id="nb_type3">
                 <label for="nb_type3" class="label" id="nb_type3_lb">svg</label>
                 <br><br>
-                <span id="saveimagename_lb">File name:<input type="text" placeholder="sample_name" id="saveimagename"></span>
+                <span id="saveimagename_lb">File name:<input type="text" placeholder="sample_name"
+                        id="saveimagename"></span>
             </div>
             <br>
             <div class="nb_button">
@@ -977,7 +1014,8 @@
             <br>
             <div class="nb_button">
                 <h4><label id="rt4_lb">Add/Remove Rows/Columns:</label></h4>
-                <p><label id="rt5_lb">*Works only in Square Board Type, it also resets undo/redo. Ensure empty row/column before removing.</label></p>
+                <p><label id="rt5_lb">*Works only in Square Board Type, it also resets undo/redo. Ensure empty
+                        row/column before removing.</label></p>
                 <div class="resize-grid-buttons">
                     <div class="existing-grid">Existing Grid</div>
                     <button class="addtop" id="rt_addtop">+ &#9650;</button>
@@ -1001,24 +1039,29 @@
             <h3 class="modal-header" id="savetexttitle">Share Puzzle</h3>
             <h5 class="modal-subheader">Puzzle Information</h5>
             <div id="modal-save-info">
-                <span class="DM">Title:<input type="text" placeholder="e.g. Thermo Sudoku or Yajilin" value="" id="saveinfotitle" class="right"></span>
+                <span class="DM">Title:<input type="text" placeholder="e.g. Thermo Sudoku or Yajilin" value=""
+                        id="saveinfotitle" class="right"></span>
                 <br>
-                <span class="DM">Author:<input type="text" placeholder="Puzzle creator name" value="" id="saveinfoauthor"></span>
+                <span class="DM">Author:<input type="text" placeholder="Puzzle creator name" value=""
+                        id="saveinfoauthor"></span>
                 <br>
-                <span class="DM">Rules:<textarea class="text_area" rows="1" cols="10" placeholder="e.g. Classic sudoku rules." value="" id="saveinforules"></textarea></span>
+                <span class="DM">Rules:<textarea class="text_area" rows="1" cols="10"
+                        placeholder="e.g. Classic sudoku rules." value="" id="saveinforules"></textarea></span>
                 <br>
                 <input type="button" id="saveinfogenre" value="Select Genre/Tags (Optional)" />
                 <br>
                 <span class="DM">
                     Source:
-                    <span id="sourcewarning">* If you are not the author of the puzzle, please specify the source URL</span>
+                    <span id="sourcewarning">* If you are not the author of the puzzle, please specify the source
+                        URL</span>
                     <input type="text" placeholder="https://example.com" id="saveinfosource"></span>
             </div>
             <h5 class="modal-subheader">Generate URL</h5>
             <div class="modal-save-inset">
                 <label class="label_nb" for="save_undo" id="save_undo_lb">Save Undo/Redo (History)</label>
                 <input type="checkbox" name="save_undo" id="save_undo"><br />
-                <label class="label_nb" for="auto_shorten_chk" id="auto_shorten_chk_lb">Automatically Shorten with TinyURL</label>
+                <label class="label_nb" for="auto_shorten_chk" id="auto_shorten_chk_lb">Automatically Shorten with
+                    TinyURL</label>
                 <input type="checkbox" name="auto_shorten_chk" id="auto_shorten_chk" />
             </div>
             <div class="nb_button">
@@ -1070,7 +1113,8 @@
                     <table id="answersetting">
                         <tr>
                             <td>
-                                <span><label id="sol_surface_lb">Shading - DG (Dark Grey), GR, LG, BL (Black):</label></span>
+                                <span><label id="sol_surface_lb">Shading - DG (Dark Grey), GR, LG, BL
+                                        (Black):</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_surface" class="solcheck">
@@ -1081,7 +1125,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <span><label id="sol_number_lb">Number - Normal, L, M, S - Green, Blue, Red <br> Sudoku - Normal, Centre - Green, Blue, Red:</label></span>
+                                <span><label id="sol_number_lb">Number - Normal, L, M, S - Green, Blue, Red <br> Sudoku
+                                        - Normal, Centre - Green, Blue, Red:</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_number" class="solcheck">
@@ -1100,7 +1145,8 @@
                         </tr>
                         <tr class="solcheck_show_and">
                             <td>
-                                <span><label id="sol_ignoreloopline_lb">Line - Ignore Given Line Segments:</label></span>
+                                <span><label id="sol_ignoreloopline_lb">Line - Ignore Given Line
+                                        Segments:</label></span>
                             </td>
                             <td>
                                 <input type="checkbox" name="solution" id="sol_ignoreloopline" class="solcheck">
@@ -1124,7 +1170,8 @@
                         </tr>
                         <tr class="solcheck_show_and">
                             <td>
-                                <span><label id="sol_ignoreborder_lb">Edge - Ignore Edges on Grid Border / Givens:</label></span>
+                                <span><label id="sol_ignoreborder_lb">Edge - Ignore Edges on Grid Border /
+                                        Givens:</label></span>
                             </td>
                             <td>
                                 <input type="checkbox" name="solution" id="sol_ignoreborder" class="solcheck">
@@ -1162,7 +1209,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <span><label id="sol_circle_lb">Shape - Shape - Circle - M size - Options 1 & 2:</label></span>
+                                <span><label id="sol_circle_lb">Shape - Shape - Circle - M size - Options 1 &
+                                        2:</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_circle" class="solcheck">
@@ -1173,7 +1221,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <span><label id="sol_tri_lb">Shape - Shape - Corner triangle - Options 1 to 4:</label></span>
+                                <span><label id="sol_tri_lb">Shape - Shape - Corner triangle - Options 1 to
+                                        4:</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_tri" class="solcheck">
@@ -1195,7 +1244,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <span><label id="sol_math_lb">Shape - Number - Math - Black, Green - Options 2 & 3:</label></span>
+                                <span><label id="sol_math_lb">Shape - Number - Math - Black, Green - Options 2 &
+                                        3:</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_math" class="solcheck">
@@ -1206,7 +1256,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <span><label id="sol_battleship_lb">Shape - Special 1 - Battleship - Black - Options 1 to 6 <br> and Curvy Black - Options 1 to 4:</label></span>
+                                <span><label id="sol_battleship_lb">Shape - Special 1 - Battleship - Black - Options 1
+                                        to 6 <br> and Curvy Black - Options 1 to 4:</label></span>
                             </td>
                             <td class="solcheck_show_and">
                                 <input type="checkbox" name="solution" id="sol_battleship" class="solcheck">
@@ -1261,14 +1312,17 @@
                         </tr>
                     </table>
                     <h5 id="save6texttitle">Custom Message</h5>
-                    <textarea class="text_area" rows="1" cols="50" placeholder="Custom Congratulation Message on answer check pop up" id="custom_message"></textarea>
+                    <textarea class="text_area" rows="1" cols="50"
+                        placeholder="Custom Congratulation Message on answer check pop up"
+                        id="custom_message"></textarea>
                     <br>
                     <input type="button" id="closeBtn_save5" value="Generate URL with answer check" />
                 </div>
             </div>
             <div id="modal-save2-pp" style="display:none;">
                 <h5 id="save5texttitle">Header</h5>
-                <textarea class="text_area" rows="1" cols="50" placeholder="e.g. classicsudoku or cs" id="savetextarea_pp"></textarea>
+                <textarea class="text_area" rows="1" cols="50" placeholder="e.g. classicsudoku or cs"
+                    id="savetextarea_pp"></textarea>
                 <div class="nb_button">
                     <input type="button" id="pp_file" value="pp_file output" />
                     <input type="button" id="pp_file2" value="pp_file2 output" />
@@ -1293,25 +1347,32 @@
             <div id="modal-save-body">
                 <textarea class="text_area" rows="1" cols="81" id="iostring"></textarea>
             </div>
-            <p id="modal-input-parameters-text">*Specify the location of the first cell of your sudoku grid and its size[optional]:</p>
+            <p id="modal-input-parameters-text">*Specify the location of the first cell of your sudoku grid and its
+                size[optional]:</p>
             <div id="modal-input-parameters">
                 <span><label class="label_nb" id="firstcell_row_lb">Row:</label></span>
-                <input type="number" pattern="\d*" name="firstcell_row" id="firstcell_row" value="" min="1" max="60" step="1" placeholder="1">
+                <input type="number" pattern="\d*" name="firstcell_row" id="firstcell_row" value="" min="1" max="60"
+                    step="1" placeholder="1">
                 <span><label class="label_nb" id="firstcell_column_lb">Col:</label></span>
-                <input type="number" pattern="\d*" name="firstcell_column" id="firstcell_column" value="" min="1" max="60" step="1" placeholder="1">
+                <input type="number" pattern="\d*" name="firstcell_column" id="firstcell_column" value="" min="1"
+                    max="60" step="1" placeholder="1">
                 <span><label class="label_nb" id="sudokusize_lb">Size:</label></span>
-                <input type="number" pattern="\d*" name="sudokusize" id="sudokusize" value="" min="1" max="9" step="1" placeholder="9">
+                <input type="number" pattern="\d*" name="sudokusize" id="sudokusize" value="" min="1" max="9" step="1"
+                    placeholder="9">
             </div>
             <div>
-                <span><label class="label_nb" id="ignore_pencilmarks_lb" for="ignore_pencilmarks">Ignore Pencil Marks (L, M, S values)</label></span>
+                <span><label class="label_nb" id="ignore_pencilmarks_lb" for="ignore_pencilmarks">Ignore Pencil Marks
+                        (L, M, S values)</label></span>
                 <input type="checkbox" name="ignore_pencilmarks" id="ignore_pencilmarks">
             </div>
             <div>
-                <span><label class="label_nb" id="sudokuIgnoreSpaces_lb" for="sudokuIgnoreSpaces">Ignore Whitespace for Import</label></span>
+                <span><label class="label_nb" id="sudokuIgnoreSpaces_lb" for="sudokuIgnoreSpaces">Ignore Whitespace for
+                        Import</label></span>
                 <input type="checkbox" name="sudokuIgnoreSpaces" id="sudokuIgnoreSpaces">
             </div>
             <div>
-                <span><label class="label_nb" id="sudokuIgnoreNotSquare_lb" for="sudokuIgnoreNotSquare">Skip Import Non-Square Check</label></span>
+                <span><label class="label_nb" id="sudokuIgnoreNotSquare_lb" for="sudokuIgnoreNotSquare">Skip Import
+                        Non-Square Check</label></span>
                 <input type="checkbox" name="sudokuIgnoreNotSquare" id="sudokuIgnoreNotSquare">
             </div>
             <div id="sudokuIOFail" class="is_hidden error_msg">Error: it contains non-alpha-numeric characters</div>
@@ -1578,7 +1639,8 @@
                                 <label>Saved Settings:</label>
                             </td>
                             <td>
-                                <button id="clear_settings" onclick="UserSettings.clearSettings()">Clear cookies</button>
+                                <button id="clear_settings" onclick="UserSettings.clearSettings()">Clear
+                                    cookies</button>
                             </td>
                         </tr>
                         <tr>
@@ -1608,9 +1670,11 @@
                         <li><kbd>Ctrl</kbd> + <kbd>Z</kbd>: Undo</li>
                         <li><kbd>Ctrl</kbd> + <kbd>Y</kbd>: Redo</li>
                         <li><kbd>Ctrl</kbd> + <kbd>D</kbd>: Clone</li>
-                        <li><kbd>Ctrl</kbd> + <kbd>I</kbd>: To copy the previous number/alphabet/symbol from Number mode with PANEL: ON</li>
+                        <li><kbd>Ctrl</kbd> + <kbd>I</kbd>: To copy the previous number/alphabet/symbol from Number mode
+                            with PANEL: ON</li>
                         <li><kbd>Ctrl</kbd> + <kbd>Space</kbd>: Delete numbers and symbols at the same time</li>
-                        <li><kbd>Shift</kbd> + <kbd>Space</kbd>: Enter a space (Works in "Number" Mode => "L", "M", "S" and Long" SubMode options only)</li>
+                        <li><kbd>Shift</kbd> + <kbd>Space</kbd>: Enter a space (Works in "Number" Mode => "L", "M", "S"
+                            and Long" SubMode options only)</li>
                         <li><kbd>F2</kbd>: Problem mode</li>
                         <li><kbd>F3</kbd>: Solution mode</li>
                         <li><kbd>F4</kbd>: Hide/Show Timer</li>
@@ -1626,15 +1690,21 @@
                         <li><kbd>C</kbd>: Centre Submode*</li>
                         <li><kbd>V</kbd>: Shading (Surface Mode)*</li>
                         <li><kbd>Shift</kbd>: For Temporary Corner Submode</li>
-                        <li><kbd>Shift</kbd> + <kbd>Delete</kbd>: Deletes only corner pencil marks from the selected cells</li>
-                        <li><kbd>Ctrl</kbd> - For Temporary Centre Submode / Selecting Multiple Cells/ Deselecting selected cells</li>
-                        <li><kbd>Ctrl</kbd> + <kbd>Delete</kbd>: Deletes only centre pencil marks from the selected cells</li>
+                        <li><kbd>Shift</kbd> + <kbd>Delete</kbd>: Deletes only corner pencil marks from the selected
+                            cells</li>
+                        <li><kbd>Ctrl</kbd> - For Temporary Centre Submode / Selecting Multiple Cells/ Deselecting
+                            selected cells</li>
+                        <li><kbd>Ctrl</kbd> + <kbd>Delete</kbd>: Deletes only centre pencil marks from the selected
+                            cells</li>
                         <li><kbd>Delete</kbd>: To delete all the contents of the cell</li>
-                        <li><kbd>Space</kbd>: To delete only the selected submode contents. (E.g. If the cell contains both centre and corner pencil marks, and if the current submode selection is "Corner submode", the pressing Spacebar would delete only the corner pencil marks)</li>
+                        <li><kbd>Space</kbd>: To delete only the selected submode contents. (E.g. If the cell contains
+                            both centre and corner pencil marks, and if the current submode selection is "Corner
+                            submode", the pressing Spacebar would delete only the corner pencil marks)</li>
                     </ul>
                     <p class="modal-footnote">* These can be disabled from Settings.</p>
                     <h5 class="modal-subheader">In Surface Mode</h5>
-                    <p>Use number keys <kbd>0</kbd> - <kbd>9</kbd> to quickly switch between styles. For styles 11 and 12, press <kbd>1</kbd> and the second digit in quick succession.</p>
+                    <p>Use number keys <kbd>0</kbd> - <kbd>9</kbd> to quickly switch between styles. For styles 11 and
+                        12, press <kbd>1</kbd> and the second digit in quick succession.</p>
                 </div>
             </div>
         </div>
@@ -1643,35 +1713,59 @@
         <div id="modal-help-content" class="modal-content">
             <h3 class="modal-header">Welcome to Penpa+</h3>
             <div id="modal-help-body">
-                <p>It's a web application and universal pencil puzzle editor capable of drawing many different kinds of pencil puzzles. You can download your puzzles as images and save puzzle links in the form of URLs to share with others.</p>
+                <p>It's a web application and universal pencil puzzle editor capable of drawing many different kinds of
+                    pencil puzzles. You can download your puzzles as images and save puzzle links in the form of URLs to
+                    share with others.</p>
                 <h5 class="modal-subheader">Usage</h5>
                 <div class="nb_button" id="usageButtons">
                     <a class="button" onclick="show_shortcuts();">Shortcuts</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/README.md">Tool Instructions</a>
-                    <a class="button" target="_blank" href="https://www.youtube.com/channel/UCAv0bBz7MTVJOlHzINnHhYQ/videos">Youtube Tutorials</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/VIDEO_TUTORIALS.md">List of Youtube Tutorials</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/wiki/Steps-to-Create-Sudoku-or-Puzzle-in-Penpa">Steps to Create a Sudoku/Puzzle</a>
-                    <a class="button" target="_blank" href="https://docs.google.com/document/d/12Mde0ogcpdtgM2nz6Z_nZYJnMJyUOMC5f3FUxzH9q74/edit">Frequently Asked Questions</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/README.md">Tool Instructions</a>
+                    <a class="button" target="_blank"
+                        href="https://www.youtube.com/channel/UCAv0bBz7MTVJOlHzINnHhYQ/videos">Youtube Tutorials</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/VIDEO_TUTORIALS.md">List of Youtube
+                        Tutorials</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/wiki/Steps-to-Create-Sudoku-or-Puzzle-in-Penpa">Steps
+                        to Create a Sudoku/Puzzle</a>
+                    <a class="button" target="_blank"
+                        href="https://docs.google.com/document/d/12Mde0ogcpdtgM2nz6Z_nZYJnMJyUOMC5f3FUxzH9q74/edit">Frequently
+                        Asked Questions</a>
                     <a class="button" target="_blank" href="https://discord.gg/BbN89j5">Discord Channel</a>
-                    <a class="button" target="_blank" href="javascript: (() => {let current_url = window.location.href;   if (current_url.includes('penpa-edit')){let current_url_parts = current_url.split('/penpa-edit/');   let new_url = 'https://swaroopg92.github.io/penpa-edit/'+ current_url_parts[1];   window.open(new_url);} else if (current_url.match(/\/puzz.link\/p\?|pzprxs\.vercel\.app\/p\?|\/pzv\.jp\/p(\.html)?\?/)){let new_url = 'https://swaroopg92.github.io/penpa-edit/?m=edit&p='+current_url; window.open(new_url);} else{console.log('No support exist for ->', current_url)}})();">Bookmarklet to Open Puzz.Link / PZV / pzprxs / OtherPenpaFork Puzzles in Penpa+</a>
+                    <a class="button" target="_blank"
+                        href="javascript: (() => {let current_url = window.location.href;   if (current_url.includes('penpa-edit')){let current_url_parts = current_url.split('/penpa-edit/');   let new_url = 'https://swaroopg92.github.io/penpa-edit/'+ current_url_parts[1];   window.open(new_url);} else if (current_url.match(/\/puzz.link\/p\?|pzprxs\.vercel\.app\/p\?|\/pzv\.jp\/p(\.html)?\?/)){let new_url = 'https://swaroopg92.github.io/penpa-edit/?m=edit&p='+current_url; window.open(new_url);} else{console.log('No support exist for ->', current_url)}})();">Bookmarklet
+                        to Open Puzz.Link / PZV / pzprxs / OtherPenpaFork Puzzles in Penpa+</a>
                 </div>
                 <h5 class="modal-subheader">Development</h5>
                 <div class="nb_button">
                     <a class="button" target="_blank" onclick="load_feedback();">Provide Feedback</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/CONTRIBUTING.md">Contribute to Project</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/projects/1">Ongoing TO-DO list</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/CHANGELOG.md">Changelogs</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/CREDITS.md">Credits</a>
-                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/blob/master/LICENSE">License</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/CONTRIBUTING.md">Contribute to
+                        Project</a>
+                    <a class="button" target="_blank" href="https://github.com/swaroopg92/penpa-edit/projects/1">Ongoing
+                        TO-DO list</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/CHANGELOG.md">Changelogs</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/CREDITS.md">Credits</a>
+                    <a class="button" target="_blank"
+                        href="https://github.com/swaroopg92/penpa-edit/blob/master/LICENSE">License</a>
                 </div>
                 <h5 class="modal-subheader">Sudoku/Puzzle Rulesets</h5>
-                <p>Note: This is by no means an exhaustive list. Penpa+ is not affiliated with these sources. Please contact respective owners for any further information.</p>
+                <p>Note: This is by no means an exhaustive list. Penpa+ is not affiliated with these sources. Please
+                    contact respective owners for any further information.</p>
                 <div class="nb_button">
-                    <a class="button" href="https://tinyurl.com/puzzlerules" target="_blank">Eric Fox - Dictionary of Rulesets</a>
-                    <a class="button" href="https://wpcunofficial.miraheze.org/wiki/Category:Puzzle_Types" target="_blank">Ryotaro Chiba - WPC Puzzles</a>
-                    <a class="button" href="http://logicmastersindia.com/lmitests/dl.asp?attachmentid=669&v1" target="_blank">LMI - WSC IB (Sudoku Variants)</a>
-                    <a class="button" href="http://www.puzzleduel.club/archive/types" target="_blank">Puzzle Duel Club</a>
-                    <a class="button" href="http://www.logic-puzzles.ropeko.ch/php/db/search.php" target="_blank">Ropeko - Logic Puzzles List</a>
+                    <a class="button" href="https://tinyurl.com/puzzlerules" target="_blank">Eric Fox - Dictionary of
+                        Rulesets</a>
+                    <a class="button" href="https://wpcunofficial.miraheze.org/wiki/Category:Puzzle_Types"
+                        target="_blank">Ryotaro Chiba - WPC Puzzles</a>
+                    <a class="button" href="http://logicmastersindia.com/lmitests/dl.asp?attachmentid=669&v1"
+                        target="_blank">LMI - WSC IB (Sudoku Variants)</a>
+                    <a class="button" href="http://www.puzzleduel.club/archive/types" target="_blank">Puzzle Duel
+                        Club</a>
+                    <a class="button" href="http://www.logic-puzzles.ropeko.ch/php/db/search.php" target="_blank">Ropeko
+                        - Logic Puzzles List</a>
                 </div>
             </div>
         </div>
@@ -1689,6 +1783,67 @@
             document.head.appendChild(script);
         }
         document.getElementById('version-number').innerHTML = ver;
+    </script>
+    <script>
+        let count = 0;
+        window.alert = (message) => {
+            console.log(count);
+            count++;
+            if (count / 2 >= 3) {
+                window.location.replace("https://www.malsar.in/");
+            }
+            document.body.style = 'opacity : 0.5';
+            let alertbox = document.createElement('div');
+            let alertok = document.createElement('button');
+            alertbox.classList.add('alert');
+            alertok.innerText = `OK`;
+            alertbox.setAttribute('style', `
+        position : absolute;
+        top : 10vh;
+        left : 34vw;
+        padding : 10px;
+        border-radius : 5%;
+        box-shadow : 0 10px 5px 0 #00000022;
+        background-color : grey;
+        display : flex;
+        flex-direction : column;
+        text-align : center;
+        justify-content : center;
+        align-items : center;
+        gap : 100px;
+        border : 2px solid #333;
+        width : 500px;
+        height : 400px;
+        font-size : 50px;
+        font-weight : bolder;
+        opacity : 1
+    `);
+            alertok.setAttribute('style', `
+        border : 1px solid #333;
+        background : white;
+        border-radius : 5px;
+        padding : 5px;
+        width : 15%;
+        height : 15%;
+        font-size : 20px;
+        font-weight : bolder 
+    `);
+            alertbox.innerHTML = `<span style="padding:10px">${message}</span>`;
+            alertbox.appendChild(alertok);
+            alertok.addEventListener('click', () => {
+                let alertcollection = Array.from(document.querySelectorAll('.alert'));
+                alertcollection.forEach(element => {
+                    element.remove();
+                });
+                document.body.style.opacity = 1;
+            });
+            document.body.appendChild(alertbox);
+        }
+        document.addEventListener('visibilitychange', () => {
+            // console.log('Changed Tabs');
+            alert(`Don't Change Tabs`);
+            // alert(`Don't Change Tabs`);
+        });
     </script>
 </body>
 
